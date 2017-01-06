@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(../img/uni.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.overlay {
+  background: RGBA(72, 121, 188, 0.75);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  max-width: 720px;
+  padding: 0 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+img.welcome {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.box {
+  background: white;
+  color: #4879BC;
+  padding: 3em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin: 1em 0;
+}
+
+.box * {
+  line-height: 1.5;
+}
+
+.box li {
+  margin-bottom: 1em;
+  margin-left: 1.25em;
+  padding-left: 0.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid lightgrey;
+  display: inline-block;
+  padding: 0 0.25em;
+}
+
+.box a:hover {
+  border-color: #4879BC;
+}
+
+.box a i {
+  color: lightgrey;
+}
+
+.box a:hover i {
+  color: #4879BC;
+}
+
+.box .more p {
+  margin-bottom: 1em;
+}
+
+.box .more p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 0.5em;
+  border-color: #2F4DBC;
+}
+
+footer a:hover {
+  border-color: #260FBC;
+}
+
+@media screen and (max-width: 720px) {
+  .box {
+    padding: 1em;
+  }
+  .box li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
