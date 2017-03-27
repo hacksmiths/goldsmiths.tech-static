@@ -90,6 +90,15 @@ a {
   margin-bottom: 0;
 }
 
+.box .more a.img  {
+  border: none;
+}
+
+.box .more a.img img {
+  display: inline;
+  height: 1em;
+}
+
 footer {
   margin-bottom: 2em;
   text-align: center;
