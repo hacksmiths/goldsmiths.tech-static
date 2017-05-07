@@ -8,19 +8,8 @@
 }
 
 body {
-  background-image: url(../img/uni.jpg);
-  background-size: cover;
-  background-position: center bottom;
-}
-
-.overlay {
-  background: RGBA(72, 121, 188, 0.75);
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  background-image: url(../img/background.svg);
+  background-size: 20rem;
 }
 
 .container {
@@ -32,12 +21,12 @@ body {
 
 img.welcome {
   width: 100%;
-  margin: 2em 0;
+  margin: 0 0 2em 0;
 }
 
 .box {
   background: white;
-  color: #4879BC;
+  color: #404041;
   padding: 3em;
   border-radius: 5px;
   margin-bottom: 2em;
@@ -71,7 +60,7 @@ a {
 }
 
 .box a:hover {
-  border-color: #4879BC;
+  border-color: #A61F3D;
 }
 
 .box a i {
@@ -79,7 +68,7 @@ a {
 }
 
 .box a:hover i {
-  color: #4879BC;
+  color: #A61F3D;
 }
 
 .box .more p {
@@ -100,18 +89,18 @@ a {
 }
 
 footer {
-  margin-bottom: 2em;
+  margin-top: 2em;
   text-align: center;
 }
 
 footer a {
-  color: white;
+  color: #404041;
   margin: 0 0.5em;
-  border-color: #2F4DBC;
+  border-color: #404041;
 }
 
 footer a:hover {
-  border-color: #260FBC;
+  border-color: #404041;
 }
 
 @media screen and (max-width: 720px) {
