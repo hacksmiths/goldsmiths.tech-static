@@ -103,6 +103,10 @@ footer a:hover {
   border-color: #404041;
 }
 
+#hacksmiths-banner a {
+  border: none;
+}
+
 @media screen and (max-width: 720px) {
   .box {
     padding: 1em;
