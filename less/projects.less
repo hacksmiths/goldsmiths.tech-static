@@ -1,0 +1,14 @@
+body[project="projectname"] {
+  @color-projectname: teal;
+  @color-projectname--dark: darken(@color-projectname, 5%);
+  a {
+    color: @color-projectname;
+  }
+  .btn--primary {
+    background: @color-projectname;
+    border: @color-projectname--dark;
+  }
+  .label:not([class*='bg--']) {
+    background: @color-projectname--dark;
+  }
+}

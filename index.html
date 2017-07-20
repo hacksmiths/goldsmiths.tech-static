@@ -1,57 +1,251 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-  <meta property="og:image" content="http://hacksmiths.club/img/og.png">
-  <title>Hacksmiths - Goldsmiths Tech Society</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
-  <script src="https://use.fontawesome.com/4ca20d00e4.js"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="box">
-      <img class="welcome" src="img/welcome.png" alt="Welcome to Hacksmiths">
-      <h2>Everything you need to know</h2>
-      <p>We are a student-run society at Goldsmiths, University of London. In order to get involved, you don't need to be a computing student or someone with lots of technical knowledge - just an interest in technology will get you a long way! We believe that everyone should have the chance to hack around with tech.</p>
-      <h3>How to get started</h3>
-      <ol>
-        <li>Become a Hacksmith by <a href="https://www.goldsmithssu.org/activities/societies/oursocieties/hacksmiths/"><i class="fa fa-bolt"></i> joining our society</a>. It costs £5 for the whole academic year.</li>
-        <li>Subscribe to our <a href="http://facebook.com/hacksmiths/events"><i class="fa fa-calendar"></i> Facebook Events Calendar</a>. We post all of our events on Facebook, and if you subscribe you'll get notifications when we post them!</li>
-        <li>Like our <a href="http://facebook.com/hacksmiths"><i class="fa fa-facebook-square"></i> Facebook Page</a> and join our <a href="http://facebook.com/groups/hacksmiths"><i class="fa fa-facebook-square"></i> Facebook Group</a>.</li>
-        <li>Say hi to us on <a href="http://twitter.com/hacksmiths"><i class="fa fa-twitter"></i> Twitter</a>.</li>
-      </ol>
-      <div class="more">
-        <h3>A bit more</h3>
-        <p>We run several big events every year, including <a href="http://sexhack.tech">Sex Tech Hack</a>, <a href="http://globalgamejam.org">a Global Game Jam centre</a>, and our flagship event <a href="http://anvil.hacksmiths.club">Anvil Hack</a>! We also run socials, workshops, talks and show & tell sessions for our members. We occasionally take a group of people to events run by other awesome members of the UK tech community.</p>
-        <p>By being involved in Hacksmiths activites, including our in-person events and online channels, you are agreeing to abide by our <a href="https://github.com/hacksmiths/code-of-conduct"><i class="fa fa-heart"></i> Code of Conduct</a>, which we actively enforce. Please be nice to everyone.</p>
-        <p>Thank you to <a class="img" href="http://get.tech"><img src="img/logo-dot-tech.png" alt=".tech logo"></a> for providing this awesome domain to us free of charge.</p>
-      </div>
-      <div class="team">
-        <h3>Team</h3>
-        <ul>
-          <li><a href="mailto:klewi014@gold.ac.uk">Kevin Lewis</a> - President</li>
-          <li><a href="mailto:noken003@gold.ac.uk">Nathaniel Okenwa</a> - Secretary</li>
-          <li><a href="mailto:achen002@gold.ac.uk">Anni Chen</a> - Treasurer</li>
-          <li><a href="mailto:imaun001@gold.ac.uk">Isabella Maund</a> - Diversity & Inclusion Officer</li>
-          <li><a href="mailto:acase002@gold.ac.uk">Alice Casey</a> - Committee Member</li>
-          <li><a href="mailto:bhens001@gold.ac.uk">Ben Henshaw</a> - Committee Member</li>
-          <li><a href="mailto:cring002@gold.ac.uk">Charlie Ringer</a> - Committee Member</li>
-          <li><a href="mailto:eburn050@gold.ac.uk">Edwin Burns</a> - Committee Member</li>
-          <li><a href="mailto:emart015@gold.ac.uk">Elena Martina</a> - Committee Member</li>
-          <li><a href="mailto:hwrig002@gold.ac.uk">Harley Wright</a> - Committee Member</li>
-          <li><a href="mailto:iphil011@gold.ac.uk">Ilya Phillips</a> - Committee Member</li>
-          <li><a href="mailto:ndeca001@gold.ac.uk">Nathan de Castro</a> - Committee Member</li>
-          <li><a href="mailto:tclar051@gold.ac.uk">Terry Clark</a> - Committee Member</li>
-          <li><a href="mailto:wbola001@gold.ac.uk">Wilson Bolas Tolentino da Silva</a> - Committee Member</li>
-        </ul>
-      </div>
-      <div class="annual-fund">
-        <img src="img/logo-annual-fund.png" alt="Supported by the Annual Fund">
-      </div>
-    </div>
-  </div>
-  <script src="https://cdn.rawgit.com/hacksmiths/web-header/master/script.js"></script>
-</body>
-</html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hacksmiths - Goldsmiths Tech Society</title>
+        <meta name="description" content="Our mission is to provide an opportunity for people in all departments and from all backgrounds the chance to learn about, and play with, technology." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet/less" type="text/css" href="less/theme.less" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+    </head>
+    <body data-smooth-scroll-offset="77">
+        <div class="nav-container">
+            <div class="header">
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2 logo-area">
+                                <a href="/">Hacksmiths</a>
+                            </div>
+                            <div class="col-xs-9 col-sm-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs logo-area">
+                                <div class="bar__module"><a href="/"><img src="/img/logo-hacksmiths-icon-only.svg" alt="Hacksmiths Logo"></a></div>
+                            </div>
+                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li><a href="/contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                    <a class="btn btn--sm type--uppercase" href="http://m.me/smithsbot" target="_blank"> <span class="btn__text"><i class="socicon socicon-messenger icon icon--xs"></i> Get updates</span> </a>
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="/join"> <span class="btn__text">Join for free</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="main-container">
+            <section class="switchable feature-large bg--secondary hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <div class="switchable__text">
+                                <img src="/img/logo-hacksmiths.svg" alt="Hacksmiths Logo">
+                                <p class="lead"> Hacksmiths is the student-run tech society at Goldsmiths. Our mission is to provide an opportunity for people in all departments and from all backgrounds the chance to learn about, and play with, technology. </p>
+                                <a class="btn btn--sm btn--primary type--uppercase" href="/join"> <span class="btn__text">Join for free</span> </a>
+                                <a class="btn btn--sm type--uppercase" href="http://twitter.com/hacksmiths"> <span class="btn__text"><i class="socicon socicon-twitter icon icon--xs"></i></span> </a>
+                                <a class="btn btn--sm type--uppercase" href="http://facebook.com/hacksmiths"> <span class="btn__text"><i class="socicon socicon-facebook icon icon--xs"></i></span> </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="boxed boxed--lg boxed--border">
+                                <div class="feature feature-2">
+                                    <div class="feature__body">
+                                        <h5>Weekly Code &amp; Craft</h5>
+                                        <p>A friendly and supportive environment to play around with your ideas, and ask for help. Wednesdays at 4-6pm in St James Hatcham Building.<br></p>
+                                    </div>
+                                </div>
+                                <div class="feature feature-2">
+                                    <div class="feature__body">
+                                        <h5>Monthly talks &amp; workshops</h5>
+                                        <p> A range of interesting content from students, staff and industry professionals. Check Facebook for announcements.</p>
+                                    </div>
+                                </div>
+                                <div class="feature feature-2">
+                                    <div class="feature__body">
+                                        <h5>Hackathons &amp; jams</h5>
+                                        <p>Invention marathons which bring together people with varying skills to build awesome projects. Find out more below.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center cta cta-4 space--xxs border--bottom bg--primary cta-lottery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12"> <span>Join before the end of October to be entered into a lottery to win a beginners electronics kit!</span> </div>
+                    </div>
+                </div>
+            </section>
+            <section class="events">
+                <div class="container">
+                    <div class="row">
+                        <h2>Our events</h2>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>DoC.Hack. 2017</h5>
+                                    <p>A hackday for all members of the Gold Computing community.</p> 
+                                    <small>Coming soon (September)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>HEBOCON 2017</h5>
+                                    <p> The best worst robot competition. Build them from trash and fight! </p> 
+                                    <small>Coming soon (October)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Minorities in Computing Hack</h5>
+                                    <p> A friendly accessible hack day for women and non binary people. </p> 
+                                    <small>Coming soon (October)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Local Hack Day 2017</h5>
+                                    <p> We run a center for the worldwide hack day aimed at beginners. </p> 
+                                    <small>Coming soon (Term 1 TBC)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Hack the Police 2</h5>
+                                    <p> A hackathon focussing on better-equipping front-line staff and citizens.</p> 
+                                    <small>Coming soon (November)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Sex Tech Hack II</h5>
+                                    <p> Looking at companionship, sexuality and companionship with technology.  </p> 
+                                    <small>Coming soon (December)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Global Game Jam 2018</h5>
+                                    <p> Build interactive playable experiences for both digital and tabletop formats. </p> 
+                                    <small>Coming soon (January)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4 event-single">
+                            <a>
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>Anvil Hack IV</h5>
+                                    <p> Our annual student hackathon focussing on creative digital art. </p> 
+                                    <small>Coming soon (February)</small>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="switchable imagebg height-50 switchable--switch" data-overlay="4">
+                <div class="background-image-holder"><img alt="background" src="img/collab.jpg"></div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>Learn valuable skills in a friendly and supportive environment</h2>
+                            <p class="lead"> We really want to support every student at Goldsmiths to build their skills. Every event is suitable for beginners - so feel free to come along, ask questions and make friends.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-6">
+                            <div class="cta">
+                                <a class="btn btn--primary btn--lg type--uppercase" href="/join"> <span class="btn__text">
+                                    Join and become a member now
+                                    </span> <span class="label">It's free</span> </a>
+                                    <p class="lead">Becoming a member as a Goldsmiths student not only gives you access to all of our events, but also gives you the ability to have a say and vote in our annual general meeting.</p>
+                                    <p class="type--fine-print">Have questions? <a href="/contact">Get in touch</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="text-center-xs space--xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <ul class="list-inline">
+                                    <li> <a href="/contact"><span class="h6 type--uppercase">Contact</span></a> </li>
+                                    <li> <a href="https://github.com/hacksmiths/code-of-conduct"><span class="h6 type--uppercase">Code of Conduct</span></a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-5 text-right text-center-xs">
+                                <ul class="social-list list-inline list--hover">
+                                    <li><a href="http://twitter.com/hacksmiths"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+                                    <li><a href="http://facebook.com/hacksmiths"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
+                                    <li><a href="http://m.me/smithsbot"><i class="socicon socicon-messenger icon icon--xs"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-7"> <span class="type--fine-print"><span class="update-year"></span> Hacksmiths - Goldsmiths Tech Society.</span> <a class="type--fine-print" href="https://www.goldsmithssu.org">Goldsmiths SU</a> <a class="type--fine-print" href="http://www.gold.ac.uk/computing/">Department of Computing at Goldsmiths</a> </div>
+                            <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="mailto:hacksmiths@gold.ac.uk">hacksmiths@gold.ac.uk</a> </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="js/jquery-3.1.1.min.js"></script>
+            <script src="js/flickity.min.js"></script>
+            <script src="js/parallax.js"></script>
+            <script src="js/smooth-scroll.min.js"></script>
+            <script src="js/scripts.js"></script>
+        </body>
+    </html>
