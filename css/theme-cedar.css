@@ -4121,9 +4121,6 @@ pre {
   background: #f5f5f5;
   border-color: #ddd;
 }
-.text-block:not(:last-child) {
-  margin-bottom: 1.85714286em;
-}
 .text-block h2,
 .text-block .h2 {
   margin-bottom: 0.3939393939394em;
