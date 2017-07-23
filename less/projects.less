@@ -1,14 +1,27 @@
-body[project="projectname"] {
-  @color-projectname: teal;
-  @color-projectname--dark: darken(@color-projectname, 5%);
+.project-theme(@theme-color) {
+  @theme-color--dark: darken(@theme-color, 5%);
   a {
-    color: @color-projectname;
+    color: @theme-color;
   }
   .btn--primary {
-    background: @color-projectname;
-    border: @color-projectname--dark;
+    background: @theme-color;
+    border: @theme-color--dark;
   }
   .label:not([class*='bg--']) {
-    background: @color-projectname--dark;
+    background: @theme-color--dark;
   }
+}
+
+body[project] {
+  .project-hero img {
+    width: 25%
+  }
+}
+
+body[project="projectname"] {
+  .project-theme(teal);
+}
+
+body[project="sci-fi"] {
+  .project-theme(#001266);
 }
