@@ -11,6 +11,14 @@
       text-decoration: none;
       font-weight: inherit;
       color: inherit;
+      &[href] {
+        .boxed {
+          border-color: #ccc;
+          &:hover {
+            border-color: @color-pink;
+          }
+        }
+      }
       p {
         font-weight: normal;
       }
